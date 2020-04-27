@@ -1,0 +1,58 @@
+/*/nav bar/*/
+header{
+	background-color: #e9c488;
+	border-bottom: solid 2px green;
+	margin: auto;
+	overflow: hidden;
+}
+header nav{
+	float: right;
+	padding-top: 10px;
+}
+.nav ul li a{
+	text-decoration:none;
+	padding: 10px;
+	color:#454529;
+}
+.nav ul{
+	overflow: hidden;
+}
+.nav ul li{
+	display: inline;
+}
+#current a{
+	color: green;
+}
+/*/logo picture/*/
+.logo{
+	float: left;
+	border: solid 0.8 green;
+}
+/*/intro seection/*/
+
+.section{
+	border: solid 1px #454529;
+	background-image:url("urg.jpg");
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+}
+.section div p,div h1,div h2,.form{
+	text-align: center;
+	color: darkorange;
+	font-size: 130%;
+}
+.section div p a{
+	text-decoration: none;
+	color: lightgreen;
+}
+/*/email insert, some styles are in html lines(40)/*/
+.form ul li input{
+	padding: 3px;
+	border:solid 1px green;
+}
+.form li{
+	display: inline;
+}
+.form li button a{
+	text-decoration: none;
+}
